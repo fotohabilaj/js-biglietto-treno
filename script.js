@@ -28,4 +28,7 @@ if (age<18) {
     let price = initialprice-((initialprice/100)*40);
    console.log(price+"euro");
 //else if eta>65(40%) ${numero arrotondato}${euro}   
-
+} else {
+    console.log(initialprice+"euro");
+   //else ${numero arrotondato}${euro} 
+}
