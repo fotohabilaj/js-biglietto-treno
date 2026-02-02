@@ -19,10 +19,13 @@ console.log(initialprice);
 
 
 
-//if eta<18(20%) ${numero arrotondato}${euro}
-if(age<18){
+
+if (age<18) {
    let price = initialprice-((initialprice/100)*20);
    console.log(price+"euro");
-}
-//else if eta>65(40%) ${numero arrotondato}${euro}
-//else ${numero arrotondato}${euro}
+//if eta<18(20%) ${numero arrotondato}${euro}   
+} else if (age>65) { 
+    let price = initialprice-((initialprice/100)*40);
+   console.log(price+"euro");
+//else if eta>65(40%) ${numero arrotondato}${euro}   
+
